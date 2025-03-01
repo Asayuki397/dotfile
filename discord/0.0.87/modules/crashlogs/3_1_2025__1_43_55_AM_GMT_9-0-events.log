@@ -32,3 +32,18 @@
 3/1/2025, 2:05:11 AM GMT+9 12: window.close win2
 3/1/2025, 2:05:11 AM GMT+9 13: webContents.destroyed web2
 3/1/2025, 2:05:11 AM GMT+9 14: window.closed win2
+3/1/2025, 4:41:56 AM GMT+9 0: 
+
+----------------------------------------------
+3/1/2025, 4:41:56 AM GMT+9 1: Discord starting: {"releaseChannel":"stable","version":"0.0.87"}, modulepath: /home/asayuki/.config/discord/0.0.87/modules
+3/1/2025, 4:41:56 AM GMT+9 2: ✅ webContents.created web1 ""
+3/1/2025, 4:41:56 AM GMT+9 3: ✅ window.created win1 "discord"
+3/1/2025, 4:41:57 AM GMT+9 4: ✅ webContents.did-finish-load web1
+3/1/2025, 4:41:57 AM GMT+9 5: ✅ webContents.created web2 ""
+3/1/2025, 4:41:57 AM GMT+9 6: ✅ window.created win2 "Discord"
+3/1/2025, 4:41:58 AM GMT+9 7: ❌ webContents.did-fail-load web2" -3 
+3/1/2025, 4:41:59 AM GMT+9 8: ✅ webContents.did-finish-load web2
+3/1/2025, 4:42:00 AM GMT+9 9: window.close win1
+3/1/2025, 4:42:00 AM GMT+9 10: webContents.destroyed web1
+3/1/2025, 4:42:00 AM GMT+9 11: window.closed win1
+3/1/2025, 4:47:30 AM GMT+9 12: before-quit

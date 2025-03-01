@@ -2789,3 +2789,66 @@ Possible causes: the network is offline, Origin is not allowed by Access-Control
 [2025-03-01 02:05:11.416] [warn]  Window state not initialized window-1
 [2025-03-01 02:05:11.416] [warn]  Window state not initialized window-1
 [2025-03-01 02:05:11.416] [warn]  Window state not initialized window-1
+[2025-03-01 04:41:57.087] [info]  DiscordSplash.signalReady
+[2025-03-01 04:41:57.112] [info]  DiscordSplash.onStateUpdate: {"status":"checking-for-updates"}
+[2025-03-01 04:41:57.112] [info]  Splash.onStateUpdate: {"status":"checking-for-updates"}
+[2025-03-01 04:41:57.451] [info]  DiscordSplash.onStateUpdate: {"status":"launching"}
+[2025-03-01 04:41:57.451] [info]  Splash.onStateUpdate: {"status":"launching"}
+[2025-03-01 04:41:58.008] [info]  Initializing voice engine with audio subsystem: standard
+[2025-03-01 04:41:58.070] [info]  [default] [BUILD INFO] Release Channel: stable, Build Number: 373136, Version Hash: 19e21faed1481f2784c7e9ba99dcc16b3b68c67e
+[2025-03-01 04:41:58.087] [info]  Splash.updateCountdownSeconds: undefined
+[2025-03-01 04:41:58.197] [info]  [default] [NATIVE INFO] host 0.0.87, modules: discord_desktop_core: 1, discord_erlpack: 1, discord_spellcheck: 1, discord_utils: 1, discord_voice: 1, discord_zstd: 1, discord_krisp: 1, discord_game_utils: 1, discord_rpc: 1, build: null
+[2025-03-01 04:41:58.659] [error] [Spellchecker] sh is not a valid locale.
+[2025-03-01 04:41:58.690] [info]  [Spellchecker] Switching to en-US (available)
+[2025-03-01 04:41:58.935] [warn]  Window state not initialized window-1
+[2025-03-01 04:41:58.936] [warn]  Window state not initialized window-1
+[2025-03-01 04:41:58.936] [warn]  Window state not initialized window-1
+[2025-03-01 04:41:58.938] [error] [libdiscore] Failed to execute smoke test: TypeError: WebAssembly compilation aborted: Network error: Response body loading was aborted
+[2025-03-01 04:41:58.939] [warn]  Window state not initialized window-1
+[2025-03-01 04:41:59.087] [info]  Splash.updateCountdownSeconds: undefined
+[2025-03-01 04:41:59.366] [info]  [FAST CONNECT] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream, encoding: etf, version: 9
+[2025-03-01 04:41:59.441] [info]  Initializing voice engine with audio subsystem: standard
+[2025-03-01 04:41:59.489] [info]  [default] [BUILD INFO] Release Channel: stable, Build Number: 373136, Version Hash: 19e21faed1481f2784c7e9ba99dcc16b3b68c67e
+[2025-03-01 04:41:59.526] [info]  [default] [NATIVE INFO] host 0.0.87, modules: discord_desktop_core: 1, discord_erlpack: 1, discord_spellcheck: 1, discord_utils: 1, discord_voice: 1, discord_zstd: 1, discord_krisp: 1, discord_game_utils: 1, discord_rpc: 1, build: null
+[2025-03-01 04:41:59.684] [error] [Spellchecker] sh is not a valid locale.
+[2025-03-01 04:41:59.730] [info]  [FAST CONNECT] connected in 364ms
+[2025-03-01 04:41:59.732] [info]  [Spellchecker] Switching to ko-KR (available)
+[2025-03-01 04:41:59.784] [info]  [libdiscore] The answer for life the universe and everything is: 42
+[2025-03-01 04:41:59.871] [warn]  [CloudSyncUtils] CloudSync is not supported on this platform
+[2025-03-01 04:42:00.019] [info]  [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2025-03-01 04:42:00.019] [info]  [GatewaySocket] [FAST CONNECT] successfully took over websocket, state: [object Object]
+[2025-03-01 04:42:00.019] [info]  [GatewaySocket] [CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 0 ms
+[2025-03-01 04:42:00.030] [info]  [RPCServer:WSS] Starting on 6463
+[2025-03-01 04:42:00.078] [info]  [RPCServer:IPC] Starting on /run/user/1000/discord-ipc-0
+[2025-03-01 04:42:00.269] [warn]  [GatewaySocket] [WS CLOSED] because of authentication failure, marking as closed.
+[2025-03-01 04:42:00.269] [warn]  [GatewaySocket] [RESET] (true, 4004, Authentication failed.)
+[2025-03-01 04:42:00.269] [info]  [Flux] Dispatching CONNECTION_CLOSED
+[2025-03-01 04:42:00.274] [info]  [OverlayBridgeStore] updateIntendedOverlayPIDs undefined
+[2025-03-01 04:42:00.282] [info]  [Routing/Utils] transitionTo - Transitioning to /login
+[2025-03-01 04:42:03.216] [info]  [LoginQRSocket] [0ms] connecting to wss://remote-auth-gateway.discord.gg/?v=2
+[2025-03-01 04:42:03.459] [info]  [LoginQRSocket] [243ms] got hello, auth timeout=277809ms
+[2025-03-01 04:42:03.499] [info]  [LoginQRSocket] [283ms] connected, handshaking with fingerprint: 2uk546XllzASwCpv6BzQ5bcmKtNYhG_DZNyMQcJQ1Ig
+[2025-03-01 04:42:03.699] [info]  [LoginQRSocket] [483ms] computed nonce proof
+[2025-03-01 04:42:03.898] [info]  [LoginQRSocket] [682ms] handshake complete awaiting remote auth.
+[2025-03-01 04:42:23.490] [info]  [Flux] Dispatching LOGIN
+[2025-03-01 04:42:27.197] [info]  [Flux] Dispatching LOGIN
+[2025-03-01 04:43:17.184] [info]  [Flux] Dispatching LOGIN
+[2025-03-01 04:43:17.993] [info]  [LoginQRSocket] [74777ms] cleaning up
+[2025-03-01 04:43:35.159] [info]  [Flux] Dispatching LOGIN_SUCCESS
+[2025-03-01 04:43:35.174] [info]  [Routing/Utils] transitionTo - Transitioning to /app
+[2025-03-01 04:43:35.175] [info]  [LoginQRSocket] [0ms] connecting to wss://remote-auth-gateway.discord.gg/?v=2
+[2025-03-01 04:43:35.179] [info]  [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2025-03-01 04:43:35.180] [info]  [LoginQRSocket] [4ms] cleaning up
+[2025-03-01 04:43:35.438] [info]  [GatewaySocket] [CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 259 ms
+[2025-03-01 04:43:36.310] [info]  [GatewaySocket] [READY] took 1131ms, as 7dee52eed70ce51f8ffe468746ecff7e
+[2025-03-01 04:43:36.333] [info]  [Flux] Dispatching CONNECTION_OPEN
+[2025-03-01 04:43:36.335] [info]  [DatabaseManager] removing database (user: 354211454704156673, database: undefined)
+[2025-03-01 04:43:36.344] [warn]  [NativeDispatchUtils] Tried getting Dispatch instance before instantiated
+[2025-03-01 04:43:36.389] [info]  [GatewaySocket] [READY_SUPPLEMENTAL] took 1210ms
+[2025-03-01 04:43:36.509] [info]  [discord_protos.discord_users.v1.FrecencyUserSettings] Loading proto
+[2025-03-01 04:43:40.313] [info]  [MessageActionCreators] Fetching messages for 722798046286708741 between undefined and undefined. jump={"jumpType":"ANIMATED"}
+[2025-03-01 04:43:40.401] [info]  [Routing/Utils] transitionTo - Transitioning to /channels/722798046286708736/722798046286708741
+[2025-03-01 04:43:40.768] [info]  [MessageActionCreators] Fetched 50 messages for 722798046286708741 isBefore:false isAfter:false
+[2025-03-01 04:43:40.773] [info]  [ChannelMessages] loadComplete: resetting state for channelId=722798046286708741, sending.length=0
+[2025-03-01 04:43:41.032] [info]  [discord_protos.discord_users.v1.FrecencyUserSettings] Scheduling save from markDirty
+[2025-03-01 04:43:41.036] [info]  [discord_protos.discord_users.v1.FrecencyUserSettings] Persisting proto
