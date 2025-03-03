@@ -13,7 +13,7 @@
     	"type": "sixel",
       	"height": 20,
       	"padding": {
-    		"top": 3,
+    		"top": 2,
     		"left": 3,
       	}
     },
@@ -22,12 +22,11 @@
     },
     "modules": [
         "break",
-        "break",
-        "break",
          {
             "type": "title",
             "keyWidth" : 10
          },
+         "break",
          {
             "type": "os",
             "key": "OS   ",
@@ -105,11 +104,6 @@
             "keyColor": "33",
         },
         {
-            "type": "swap",
-            "key": " ├ 󰓡 ",
-            "keyColor": "33",
-        },
-        {
             "type": "disk",
             "key": " ├ 󰋊 ",
             "keyColor": "33",
@@ -117,9 +111,15 @@
         {
             "type": "monitor",
             "format": "{1} {2}x{3}@{7}Hz",
-            "key": " └  ",
+            "key": " ├  ",
             "keyColor": "33",
         },
+        {
+            "type": "swap",
+            "key": " └ 󰓡 ",
+            "keyColor": "33",
+        },
+        
         "break",
         "break",
     ]

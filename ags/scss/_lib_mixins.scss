@@ -35,12 +35,12 @@ $rounding_large: 1.705rem;
 
 @mixin titlefont {
     // Geometric sans-serif
-    font-family: "Gabarito", "Poppins", "Readex Pro", "Lexend", sans-serif;
+    font-family: "Gabarito", "Natsume", "Poppins", "Readex Pro", "Lexend", sans-serif;
 }
 
 @mixin mainfont {
     // Other clean sans-serif
-    font-family: "Rubik", "Geist", "AR One Sans", "Reddit Sans", "Inter",
+    font-family: "Rubik","Natsume", "Geist", "AR One Sans", "Reddit Sans", "Inter",
         "Roboto", "Ubuntu", "Noto Sans", sans-serif;
     // font-weight: 500;
 }
